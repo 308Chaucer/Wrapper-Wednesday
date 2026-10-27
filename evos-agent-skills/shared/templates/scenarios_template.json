@@ -1,0 +1,29 @@
+{
+  "capability": "capability-slug-here",
+  "version": "1.0.0",
+  "scenarios": [
+    {
+      "id": "XXX-001",
+      "name": "Descriptive scenario name",
+      "difficulty": "easy|medium|hard",
+      "category": "category-tag",
+      "context": {
+        "situation": "Detailed realistic scenario with specific dollar amounts, company names (fictitious but realistic), product types, customer tiers, timeline pressures, and competing priorities.",
+        "available_data": {
+          "key": "Specific data points the agent has access to"
+        }
+      },
+      "task": "What the agent must produce (e.g., severity assessment, action plan, communication draft, decision recommendation)",
+      "evaluation_criteria": [
+        {
+          "criterion": "criterion_name",
+          "weight": 0.25,
+          "rubric": {
+            "pass": "Specific description of what a correct, expert-level response looks like",
+            "fail": "Specific description of what an incorrect or generic response looks like"
+          }
+        }
+      ]
+    }
+  ]
+}
